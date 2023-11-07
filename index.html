@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculators</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <div>
+        <h1>Mass Calculator</h1>
+        <p>
+      <input type="text" id="gram" oninput="kilogran.value=gram.value/1000" placeholder="Gram">
+    </p>
+    <p>
+       <input type="text" id="kilogran" oninput="gram.value=kilogran.value*1000" placeholder="kilogram"></p>
+     </div>
+      
+     <div>
+        <h1>speed calculator</h1>
+        <p>
+            <input type="text" id="second" oninput="kilometer.value=second.value*3.6" placeholder="meter per sec.">
+        </p>
+        <p>
+            <input type="text" id="kilometer" oninput="second.value=kilometer.value/3.6" placeholder="Km. per hr">
+        </p>
+     </div>
+     
+<div>
+
+   <h1>Fuel Economy</h1>
+     <p>
+      <input type="text" id="liter" oninput="gallon.value=liter.value*2.352" placeholder="Kilometer per liter">
+     </p>
+
+     <p>
+      <input type="text" id="gallon" oninput="liter.value=gallon.value/2.325" placeholder="Miles per gallon">
+     </p>
+   </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+div
+{
+    height: 45vh;
+width: 300px;
+margin: auto;
+background-color: cyan;
+border: 2px solid black;
+border-radius:10px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+box-shadow: 2px 2px 10px blue;
+margin-bottom: 20px;
+}
+
+input
+{
+    text-align: center; 
+     align-items: center;
+     width: 200px;
+     height: 30px;
+     border: 2px solid black;
+     border-radius: 10px;
+     font-size: 18px;
+     font-weight: bolder;
+
+     /* for only bottom line */
+
+     /* border: none;
+     outline: none;
+     border-bottom: 10px;
+     background-color: cyan; */
+    
+}
+
+h1{
+    text-decoration: underline;
+}
+
+::placeholder{
+    font-size: 13px;
+}
