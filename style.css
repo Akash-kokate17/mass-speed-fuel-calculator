@@ -1,4 +1,7 @@
-div
+body{
+    height: 100vh;
+}
+.div
 {
     height: 45vh;
 width: 300px;
